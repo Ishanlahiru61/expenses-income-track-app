@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stats_card_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Record Expense"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="14sp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="4dp"/>
+        <Button
+            android:id="@+id/btnExpenseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:paddingVertical="10dp"
+            android:background="@drawable/input_field_background"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="14sp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="4dp"/>
+        <Spinner
+            android:id="@+id/spinnerExpenseCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:background="@drawable/input_field_background"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textSize="14sp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/etExpenseAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Amount"
+            android:inputType="numberDecimal"
+            android:paddingVertical="10dp"
+            android:background="@drawable/input_field_background"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account"
+            android:textSize="14sp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="4dp"/>
+        <Spinner
+            android:id="@+id/spinnerExpenseAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:background="@drawable/input_field_background"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note"
+            android:textSize="14sp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/etExpenseNote"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Add a note (optional)"
+            android:inputType="textMultiLine"
+            android:gravity="top|start"
+            android:padding="8dp"
+            android:background="@drawable/input_field_background"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnSaveExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Expense"
+            android:textSize="16sp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/button_primary"
+            android:textColor="@color/primary_color"
+            android:elevation="4dp"
+            android:stateListAnimator="@null"/>
+    </LinearLayout>
+</FrameLayout>

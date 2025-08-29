@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab Exam 4</string>
+
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Education</item>
+        <item>Cloths</item>
+        <item>Health</item>
+        <item>Pets</item>
+        <item>Beauty</item>
+        <item>Household</item>
+    </string-array>
+    <string-array name="income_categories">
+        <item>Salary</item>
+        <item>Bonus</item>
+        <item>Gift</item>
+        <item>Interest</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="account_types">
+        <item>Bank</item>
+        <item>Cash</item>
+        <item>Credit Card</item>
+    </string-array>
+    <string name="bank_balance_format">Bank: $%.2f</string>
+    <string name="cash_balance_format">Cash: $%.2f</string>
+    <string name="card_balance_format">Credit Card: $%.2f</string>
+    <string name="total_balance_format">Total Balance: $%.2f</string>
+    <string name="budget_format">Budget: $%.2f</string>
+    <string name="current_amount_format">Current Amount: $%.2f</string>
+    <string name="percentage_format">Percentage: %.2f%%</string>
+</resources>

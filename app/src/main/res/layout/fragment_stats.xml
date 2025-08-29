@@ -1,0 +1,44 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stats_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/stats_card_background"
+        android:elevation="8dp"
+        android:clipToOutline="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnToggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnToggle"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Expenses"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:padding="12dp"
+        app:cornerRadius="24dp"
+        app:elevation="8dp"
+        android:translationZ="4dp"
+        android:backgroundTint="@color/orange_color"
+        android:textColor="@android:color/white"
+        android:stateListAnimator="@null"
+        app:layout_constraintTop_toBottomOf="@id/fragmentContainer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="2dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
