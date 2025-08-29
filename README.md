@@ -20,7 +20,7 @@ Technologies Used
 
 Here’s a screenshot of the app:
 
-![App Screenshot](assets/photo 1.png)
-![App Screenshot](assets/photo 2.png)
-![App Screenshot](assets/photo 3.png)
+![App Screenshot](assets/photo1.png)
+![App Screenshot](assets/photo2.png)
+![App Screenshot](assets/photo3.png)
 
