@@ -16,4 +16,10 @@ Technologies Used
       Architecture:MVVM / Fragment-based navigation
       Database: Room (SQLite)
 
-  
+
+
+Here’s a screenshot of the app:
+
+![App Screenshot](assets/photo1.png)
+![App Screenshot](assets/photo1.png)
+
